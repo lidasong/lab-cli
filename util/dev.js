@@ -32,4 +32,4 @@ const open = async () => {
   })
 }
 
-exports = () => open()
+module.exports = () => open()

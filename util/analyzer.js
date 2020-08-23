@@ -5,7 +5,7 @@ const webpack = require('webpack')
 const { merge } = require('./merge')
 const logger = require('./logger')
 
-exports = () =>
+module.exports = () =>
   (async () => {
     const analyzerPort = await getPort({ port: 8000 })
     const analyzer = {

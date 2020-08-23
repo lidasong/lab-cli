@@ -43,4 +43,4 @@ const doBuild = async () => {
   })
 }
 
-exports = () => doBuild()
+module.exports = () => doBuild()

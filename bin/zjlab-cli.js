@@ -2,7 +2,6 @@
 'use strict'
 
 const program = require('commander')
-console.log(program)
 
 program
   .usage('<command> [options]')
