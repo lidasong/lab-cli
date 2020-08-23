@@ -1,6 +1,6 @@
 {
-  "name": "lab-cli",
-  "version": "1.0.2",
+  "name": "zjlab-cli",
+  "version": "1.0.4",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -14,7 +14,7 @@
   "author": "lidasong <lidasong2014@163.com>",
   "license": "ISC",
   "bin": {
-    "lab-cli": "bin/lab-cli"
+    "zjlab-cli": "./bin/lab.js"
   },
   "dependencies": {
     "@babel/core": "^7.11.1",

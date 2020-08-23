@@ -7,7 +7,7 @@ console.log(program)
 program
   .usage('<command> [options]')
   .version(require('../package.json').version)
-  .command('watch', 'Development mode')
+  .command('dev', 'Development mode')
   .command('build', 'Production mode')
   .command('analyze', 'Analyzer for stats')
   .parse(process.argv)
