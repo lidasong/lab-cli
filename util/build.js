@@ -1,6 +1,6 @@
 const webpack = require('webpack')
 const { base } = require('./get-base-config')
-const { merge } = require('./util')
+const { merge } = require('./merge')
 const rimraf = require('rimraf')
 const TerserPlugin = require('terser-webpack-plugin')
 const os = require('os')
